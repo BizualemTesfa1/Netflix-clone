@@ -1,15 +1,16 @@
-import './App.css'
+import React from "react";
+import "./App.css";
+import Banner from "./components/banner/Banner";
+import RowList from "./components/rows/rowList/Rowlist";
 
 function App() {
-
   return (
-    <>
-      <div>
-        app
-      </div>
-      
-    </>
-  )
+    <div className="app">
+      {/* <Header /> */}
+      <Banner />
+      <RowList />
+    </div>
+  );
 }
 
-export default App
+export default App;
