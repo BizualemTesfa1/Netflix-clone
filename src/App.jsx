@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import Banner from "./components/banner/Banner";
-import RowList from "./components/rows/rowList/Rowlist";
+import Home from "./pages/Home"
 
 function App() {
   return (
     <div className="app">
-      {/* <Header /> */}
-      <Banner />
-      <RowList />
+     <Home />
     </div>
   );
 }
