@@ -1,7 +1,9 @@
 .outer_div_container {
   width: 100%;
   position: sticky;
+  background:;
   background-color: rgb(20, 20, 20);
+  background-color: transparent;
   top: 0;
   left: 0;
   right: 0;

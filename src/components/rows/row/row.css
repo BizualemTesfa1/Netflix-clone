@@ -34,3 +34,9 @@
 .row_posterLarge:hover {
     transform: scale(1.09);
 }
+
+/* @media (max-width: 768px){
+    .row_posters {
+    display: flex;
+    flex-direction: column;
+} */
