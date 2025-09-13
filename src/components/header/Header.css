@@ -1,7 +1,6 @@
 .outer_div_container {
   width: 100%;
   position: sticky;
-  background:;
   background-color: rgb(20, 20, 20);
   background-color: transparent;
   top: 0;
@@ -72,5 +71,16 @@
 
   .menu_btn {
     display: block;
+    width: 100%;
+  position: sticky;
+  background-color: rgb(20, 20, 20);
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  transition: all 0.5s;
+  z-index: 1000;
+
   }
 }
